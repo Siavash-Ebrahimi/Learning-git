@@ -18,8 +18,6 @@ for i in Country:
 Greeting = ["Hi", "Holla", "Hello", "Welcome", "Salam",
             "Marhaba", "Saboolik", "سلام"]
 H = input("What is your name: ")
-#---Branch Code--------------------
-print(Ra_Country["Iran"], H)
 #------------------------------------------------------
 x=0;
 while x != 5:
