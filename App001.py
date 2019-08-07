@@ -14,14 +14,14 @@ for i in Country:
         print(Greeting[Country[x]], H, 'From', c)
     x += 1
 #------------------------------------------------------
-'''
+print("========================================")
+print("---------Random|Greeting----------------", '\n')
+
 Greeting = ["Hi", "Holla", "Hello", "Welcome", "Salam",
             "Marhaba", "Saboolik", "سلام"]
-H = input("What is your name: ")
-#------------------------------------------------------
-x=0;
-while x != 5:
+x1=0;
+while x1 != 5:
     print(random.choice(Greeting), H)
-    x += 1
+    x1 += 1
 
-'''
+
